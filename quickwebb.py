@@ -99,7 +99,7 @@ def photnow (ffpath, pos=None, radii_pixels=12, annulus_pixels = 2):
 
     print('Aper. Photometry: %9.3f +/- %9.3f' % (phot_vals[-1], error))
     
-    return radii, phot_vals, cutout, cen
+    return phot_vals, cutout, cen
 
 def plotphot(radii, phot_vals, cutout, cen, nr, aw):
 
