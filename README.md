@@ -12,4 +12,8 @@ Currently available functions
 - photnow 
 
 
+Requires:
+jdaviz: pip install git+https://github.com/spacetelescope/jdaviz --upgrade
+
+
 Thanks to pontoppi for providing the starting place for these routines.
